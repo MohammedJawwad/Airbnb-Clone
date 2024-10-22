@@ -5,13 +5,30 @@
 ## Screenshots
 Here are some screenshots of the Airbnb Clone application:
 
+## Screenshots
+Here are some screenshots of the Airbnb Clone application:
+
+### Homepage
 ![Homepage](public/images/homepage.png)
+
+### Filter by Maps
 ![Filter by Maps](public/images/filter%20by%20maps.png)
+
+### Filter by Category
 ![Filter by Category](public/images/filter%20by%20category.png)
+
+### Make Reservations
 ![Make Reservations](public/images/makeReservations.png)
+
+### Property Listings
 ![Property Listings](public/images/propertylisting.png)
+
+### Favorite Listings
 ![Favorite Listings](public/images/favoriteListing.png)
-![Cancel Reservations Anytime](public/images/cancelReservation.png)
+
+### Cancel Reservations Anytime
+![Cancel Reservations](public/images/cancelReservation.png)
+
 
 
 
