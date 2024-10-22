@@ -29,24 +29,28 @@
   NEXTAUTH_SECRET=
 ```
 
-Cloning the Repository
-bash
-Copy code
+## Cloning the Repository
+```bash
 git clone https://github.com/MohammedJawwad/Airbnb-Clone.git
-Installing Packages
-bash
-Copy code
+```
+## Installing Packages
+```bash
 npm install
-Setting up Prisma
-bash
-Copy code
+```
+## Setting up Prisma
+```bash
 npx prisma db push
-Starting the Application
-bash
-Copy code
+```
+## Starting the Application
+```bash
 npm run dev
-Available Commands
-Command	Description
-dev	Starts the development instance of the app.
-build	Builds the app for production.
-start	Runs the production build.
+```
+## Available Commands
+Here are the available commands for managing the application:
+
+| Command  | Description                              |
+|----------|------------------------------------------|
+| `dev`    | Starts the development instance of the app. |
+| `build`  | Builds the app for production.           |
+| `start`  | Runs the production build.               |
+
