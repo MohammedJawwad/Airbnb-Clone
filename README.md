@@ -5,9 +5,6 @@
 ## Screenshots
 Here are some screenshots of the Airbnb Clone application:
 
-## Screenshots
-Here are some screenshots of the Airbnb Clone application:
-
 ### Homepage
 ![Homepage](public/images/homepage.png)
 
