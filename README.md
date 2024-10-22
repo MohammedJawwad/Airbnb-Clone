@@ -1,78 +1,52 @@
-Features:
+# Airbnb Clone
 
-- Tailwind design
-- Tailwind animations and effects
-- Full responsiveness
-- Credential authentication
-- Google authentication
-- Github authentication
-- Image upload using Cloudinary CDN
-- Client form validation and handling using react-hook-form
-- Server error handling using react-toast
-- Calendars with react-date-range
-- Page loading state
-- Page empty state
-- Booking / Reservation system
-- Guest reservation cancellation
-- Owner reservation cancellation
-- Creation and deletion of properties
-- Pricing calculation
-- Advanced search algorithm by category, date range, map location, number of guests, rooms and bathrooms
-    - For example we will filter out properties that have a reservation in your desired date range to travel
-- Favorites system
-- Shareable URL filters
-    - Lets say you select a category, location and date range, you will be able to share URL with a logged out friend in another browser and they will see the same results
-- How to write POST and DELETE routes in route handlers (app/api)
-- How to fetch data in server react components by directly accessing database (WITHOUT API! like Magic!)
-- How to handle files like error.tsx and loading.tsx which are new Next 13 templating files to unify loading and error handling
-- How to handle relations between Server and Child components!
+**Airbnb Clone** is a web application that replicates the core functionalities of Airbnb, enabling users to book and list properties, manage reservations, and explore locations. Built with modern web technologies, this project focuses on performance, user experience, and responsiveness.
 
-### Prerequisites
+## Features
+- **Tailwind CSS** for modern design and animations
+- Fully responsive UI
+- **Credential authentication** (Google and GitHub)
+- Image upload with **Cloudinary CDN**
+- Client-side form validation via **react-hook-form**
+- Server-side error handling with **react-toast**
+- Booking and reservation system (guest and owner cancellations)
+- Advanced search filters (category, date range, location, guest count, rooms, bathrooms)
+- **Favorites system** and shareable URL filters
+- Data fetching directly in server components (Next.js 13)
+- Optimized for **Next.js 13** features (error.tsx, loading.tsx)
+- **Pricing calculation** and advanced search logic
+- Handles complex relational data between server and child components
 
-**Node version 14.x**
-
-### Cloning the repository
-
-```shell
-git clone https://github.com/MohammedJawwad/Airbnb-Clone.git 
+## Prerequisites
+- **Node.js** version 14.x or higher
+- A **.env** file with the following environment variables:
+  ```bash
+  DATABASE_URL=
+  GOOGLE_CLIENT_ID=
+  GOOGLE_CLIENT_SECRET=
+  GITHUB_ID=
+  GITHUB_SECRET=
+  NEXTAUTH_SECRET=
 ```
 
-### Install packages
-
-```shell
-npm i
-```
-
-### Setup .env file
-
-
-```js
-DATABASE_URL=
-GOOGLE_CLIENT_ID=
-GOOGLE_CLIENT_SECRET=
-GITHUB_ID=
-GITHUB_SECRET=
-NEXTAUTH_SECRET=
-```
-
-### Setup Prisma
-
-```shell
+Cloning the Repository
+bash
+Copy code
+git clone https://github.com/MohammedJawwad/Airbnb-Clone.git
+Installing Packages
+bash
+Copy code
+npm install
+Setting up Prisma
+bash
+Copy code
 npx prisma db push
-
-```
-
-### Start the app
-
-```shell
+Starting the Application
+bash
+Copy code
 npm run dev
-```
-
-## Available commands
-
-Running commands with npm `npm run [command]`
-
-| command         | description                              |
-| :-------------- | :--------------------------------------- |
-| `dev`           | Starts a development instance of the app |
-# Airbnb-Clone
+Available Commands
+Command	Description
+dev	Starts the development instance of the app.
+build	Builds the app for production.
+start	Runs the production build.
