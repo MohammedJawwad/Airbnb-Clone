@@ -2,13 +2,17 @@
 
 **Airbnb Clone** is a web application that replicates the core functionalities of Airbnb, enabling users to book and list properties, manage reservations, and explore locations. Built with modern web technologies, this project focuses on performance, user experience, and responsiveness.
 
+## Screenshots
+Here are some screenshots of the Airbnb Clone application:
+
 ![Homepage](public/images/homepage.png)
-![Filter by Maps](assets/images/filter by maps.png)
-![Filter by Category](assets/images/filter_by_category.png)
-![Make Reservations](assets/images/makeReservations.png)
-![Property Listings](assets/images/propertylisting.png)
-![Favorite Listings](assets/images/favoriteListing.png)
-![Cancel Reservations Anytime](assets/images/cancelReservation.png)
+![Filter by Maps](public/images/filter%20by%20maps.png)
+![Filter by Category](public/images/filter%20by%20category.png)
+![Make Reservations](public/images/makeReservations.png)
+![Property Listings](public/images/propertylisting.png)
+![Favorite Listings](public/images/favoriteListing.png)
+![Cancel Reservations Anytime](public/images/cancelReservation.png)
+
 
 
 ## Features
