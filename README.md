@@ -51,10 +51,10 @@ Here are some screenshots of the Airbnb Clone application:
   GITHUB_ID=
   GITHUB_SECRET=
   NEXTAUTH_SECRET=
-```
+
 
 ## Cloning the Repository
-```
+```bash
 git clone https://github.com/MohammedJawwad/Airbnb-Clone.git
 ```
 ## Installing Packages
