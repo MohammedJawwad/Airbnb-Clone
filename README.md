@@ -54,7 +54,7 @@ Here are some screenshots of the Airbnb Clone application:
 ```
 
 ## Cloning the Repository
-```bash
+```
 git clone https://github.com/MohammedJawwad/Airbnb-Clone.git
 ```
 ## Installing Packages
